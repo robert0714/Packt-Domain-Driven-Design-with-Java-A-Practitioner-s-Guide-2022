@@ -1,8 +1,11 @@
 package com.premonition.lc.ch06.ui.views;
 
+import org.springframework.stereotype.Component;
+
 import com.premonition.lc.ch06.ui.scopes.LCScope;
 import com.premonition.lc.ch06.ui.utils.UIUtils;
 import com.premonition.lc.ch06.ui.viewmodels.StartLCViewModel;
+
 import de.saxsys.mvvmfx.FluentViewLoader;
 import de.saxsys.mvvmfx.FxmlView;
 import de.saxsys.mvvmfx.Initialize;
@@ -13,11 +16,9 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-import org.springframework.stereotype.Component;
 
 @Component
 public class StartLCView implements FxmlView<StartLCViewModel> {
@@ -45,7 +46,7 @@ public class StartLCView implements FxmlView<StartLCViewModel> {
 
             @Override
             protected Task<Void> createTask() {
-                return new Task<>() {
+                return new Task() {
                     @Override
                     protected Void call() {
                         viewModel.startNewLC();

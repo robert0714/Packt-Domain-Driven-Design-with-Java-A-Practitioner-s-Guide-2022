@@ -3,7 +3,7 @@
 This is the source code repository for the book.
 
 == Pre-Requisites
-* JDK 14
+* JDK 17
 * Maven 3.3+
 
 == Usage

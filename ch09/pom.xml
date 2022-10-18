@@ -13,15 +13,15 @@
 	<description>Chapter 9 - Sample Application - LC Issuance - App</description>
 	<properties>
 		<java.version>17</java.version>
-		<axon-framework.version>4.5.3</axon-framework.version>
-		<commons-io.version>2.8.0</commons-io.version>
-		<jackson-datatype-money.version>1.2.2</jackson-datatype-money.version>
+		<axon-framework.version>4.6.1</axon-framework.version>
+		<commons-io.version>2.11.0</commons-io.version>
+		<jackson-datatype-money.version>1.3.0</jackson-datatype-money.version>
 		<moneta.version>1.4.2</moneta.version>
-		<javafx.version>16</javafx.version>
+		<javafx.version>17</javafx.version>
 		<testfx-junit5.version>4.0.16-alpha</testfx-junit5.version>
 		<openjfx-monocle.version>jdk-12.0.1+2</openjfx-monocle.version>
 		<mvvmfx.version>1.8.0</mvvmfx.version>
-		<javafx-maven-plugin.version>0.0.6</javafx-maven-plugin.version>
+		<javafx-maven-plugin.version>0.0.8</javafx-maven-plugin.version>
 	</properties>
 	<dependencies>
 		<dependency>
